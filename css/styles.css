@@ -1,0 +1,398 @@
+:root {
+    --primery-fon-color:var(rgba(255, 255, 255, 1));
+    --second-color-main-footer:var(rgba(47, 48, 58, 1));
+    --body-text-color:var(rgba(33, 150, 243, 1));
+    --primery-text-color:var(rgba(33, 33, 33, 1));
+    
+}
+/* второй цвет фона и футера #2F303A */
+/* фон чим ми займаемось #F5F5F5*/
+/* фон наша команда background: rgba(245, 244, 250, 1); */
+/* body text color #000000*/
+/* вторичный цвет текста background: rgba(33, 33, 33, 1);
+*/
+.body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    background-color:var(--primery-fon-color) ;
+font-weight: 400;
+ 
+}
+
+/* основний фон шапки #FFFFFF */
+.header {
+    background-color: #FFFFFF;
+    
+
+}
+/* logotype */
+.logo:hover {
+    color: rgba(33, 150, 243, 1);
+}
+.logo {
+font-family: "Raleway";
+font-size: 26px;
+font-weight: bold;
+color: rgba(33, 150, 243, 1);
+text-decoration: none;
+}
+.accent:hover {
+    color: rgba(33, 150, 243, 1);
+}
+.accent {
+font-family: "Raleway";
+font-size: 26px;
+font-weight: bold;
+
+color: rgb(0, 0, 1)
+}
+.header .link:hover,
+.header .link:focus
+  {
+    color: rgba(33, 150, 243, 1);
+}
+.link-mail {
+    text-decoration: none;
+    color: rgba(33, 150, 243, 1);
+}
+
+/* delete point from list */
+ul {list-style: none;
+    
+}
+
+/* site-nav */
+ .link {
+text-decoration: none;
+color: #000;
+}
+.site-nav .link.carrent.studio {
+    color: var(--body-text-color);
+
+
+}
+.site-nav .link.studio {
+    color: var(--body-text-color);
+
+}
+.site-nav.list {
+    
+    
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+
+}
+.studio .link {
+    color:  #2196F3;
+ 
+}
+.portfolio {
+    color: #212121;
+}
+
+/* auth-nav */
+.auth-nav.list {
+    
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+
+}
+.auth-nav .link {
+    
+    color: #2196F3;
+}
+
+.tel .link {
+    color: rgba(117, 117, 117, 1);
+
+}
+
+/* hero */
+
+.hero-title {
+ 
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+color: #FFFFFF;
+/* hero backgraund */
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+
+background-color: rgb(47, 48, 58, 1);
+}
+
+.button {
+    /* size button */
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    border-radius: 4px;
+    /* color button */
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+
+    
+    /* position text button */
+    
+    left: 724px;
+    top: 440px;
+    /* text button */
+    color: rgba(255, 255, 255, 1);
+    font-family: "Roboto";
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-content: center;
+    /* identical to box height, or 188% */
+    
+   
+}
+/* Особливості */
+ .section {
+    
+    
+    
+  
+ } 
+.section-title {
+   
+font-weight: 700;
+line-height: 1.17;
+font-size: 14px;
+
+}
+.section-task {
+    font-style: normal;  
+
+color: #757575;
+}
+/* Чим ми займаемося та наша команда--> */
+
+.section-made {
+
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+
+}
+
+
+/* our team */
+.section-team {
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.name {
+
+
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.17;
+
+
+}
+.position {
+        font-style: normal;
+    
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    
+    
+color: rgba(117, 117, 117, 1);
+
+
+}
+/* footer */
+.footer {
+/* footer backgraund */
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2094px;
+background: rgba(47, 48, 58, 1);
+/* footer text */
+
+
+   
+}
+.logo-footer .accent-footer:focus,
+.logo-footer .accent-footer:hover {
+    color: rgba(33, 150, 243, 1);}
+
+.logo-footer {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-decoration: none;
+    color:rgba(33, 150, 243, 1)
+}
+
+.accent-footer {
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 0px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+.map:focus,
+.map:hover {
+    color: rgba(33, 150, 243, 1);
+}
+
+
+.map {
+    
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+letter-spacing: 0.03em;
+text-decoration: none;
+color: #FFFFFF;
+
+
+}
+
+.mail-footer {
+    
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+text-decoration: none;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+
+}
+
+.tel-footer {
+    
+font-style: normal;
+
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+text-decoration: none;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.tel-footer:focus,
+.tel-footer:hover {
+    color: rgba(33, 150, 243, 1);
+}
+
+/* portfolio */
+/* button portfolio blue*/
+
+.button-portfolio {
+    height: 38px;
+    width: 112px;
+    
+    border-radius: 4px;
+    background: rgb(244, 250, 248);
+    
+   
+    font-family: "Roboto";
+    
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.62;
+    
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    
+    }
+    /* batton text-color */
+    .button-portfolio:focus {
+        background-color: var(--primery-fon-color);
+        color: var(--body-text-color);
+        
+    }
+    .button-portfolio:hover {
+    color: var(--body-text-color);
+    border-color:  rgba(33, 150, 243, 1);
+     
+}
+    /* button-portfolio-all */
+    .button-portfolio-all {
+        height: 38px;
+        width: 73px;
+        
+        border-radius: 4px;
+        background: rgba(33, 150, 243, 1);
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+        
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+        
+        box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+        
+        border-color: rgba(33, 150, 243, 1);       
+        
+        
+        Fill: Solid;
+        color: #FFFFFF;
+        }
+        .button-portfolio-all:focus,
+    .button-portfolio-all:hover {
+    color:var(--body-text-color);
+    border-color: red;
+    
+}
+
+ul .section-title-portfolio {
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    /* identical to box height, or 200% */
+    
+    
+    
+    color: #212121;
+}
+
+ul .section-task-portfolio {
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    /* identical to box height, or 188% */
+    
+    
+    
+    color: #757575;
+
+}
+

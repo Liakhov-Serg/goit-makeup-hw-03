@@ -1,1 +1,2 @@
-# goit-makeup-hw-03
+# goit-makeup-hw-02
+dz 2
