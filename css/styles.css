@@ -77,7 +77,7 @@ color: #000;
 
 }
 .site-nav.list {
-    
+    border: 5px solid tomato;
     
     font-weight: 500;
     line-height: 1.14;
