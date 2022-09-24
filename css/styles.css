@@ -1,3 +1,11 @@
+.html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 :root {
     --primery-fon-color:var(rgba(255, 255, 255, 1));
     --second-color-main-footer:var(rgba(47, 48, 58, 1));
@@ -5,6 +13,7 @@
     --primery-text-color:var(rgba(33, 33, 33, 1));
     
 }
+
 /* второй цвет фона и футера #2F303A */
 /* фон чим ми займаемось #F5F5F5*/
 /* фон наша команда background: rgba(245, 244, 250, 1); */
@@ -25,6 +34,16 @@ font-weight: 400;
     background-color: #FFFFFF;
     
 
+}
+/* conteiner header */
+.box-header {
+    background-color: yellowgreen;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.conteiner {
+    
 }
 /* logotype */
 .logo:hover {
@@ -77,7 +96,7 @@ color: #000;
 
 }
 .site-nav.list {
-    border: 5px solid tomato;
+    
     
     font-weight: 500;
     line-height: 1.14;
@@ -113,6 +132,17 @@ color: #000;
 }
 
 /* hero */
+.box-hero {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    outline: 5px solid chartreuse;
+}
+.hero {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #2196F3;
+}
+
 
 .hero-title {
  
@@ -145,6 +175,7 @@ background-color: rgb(47, 48, 58, 1);
 
     
     /* position text button */
+   
     
     left: 724px;
     top: 440px;
@@ -161,7 +192,15 @@ background-color: rgb(47, 48, 58, 1);
    
 }
 /* Особливості */
- .section {
+.box-peculiarities {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    outline: 5px solid yellowgreen;
+}
+ .section.section {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
     
     
     
@@ -180,20 +219,35 @@ font-size: 14px;
 color: #757575;
 }
 /* Чим ми займаемося та наша команда--> */
-
+.box-works {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    outline: 5px solid salmon;
+}
 .section-made {
 
 
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
+margin-top: 0px;
+margin-bottom: 0px;
+background-color: ;
 
 }
 
 
 /* our team */
+.box-team {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    outline: 5px solid salmon;
+}
 .section-team {
     background-color: rgba(245, 244, 250, 1);
+    margin-top: 0px;
+margin-bottom: 0px;
+outline: 3px solid:#2196F3;
 }
 
 .name {
@@ -219,6 +273,11 @@ color: rgba(117, 117, 117, 1);
 
 }
 /* footer */
+.box-footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    outline: 5px solid salmon;
+}
 .footer {
 /* footer backgraund */
 width: 1600px;
