@@ -33,16 +33,24 @@ font-weight: 400;
 .header {
     background-color: #FFFFFF;
     
+    
 
 }
 /* conteiner header */
+
+
 .box-header {
+
     background-color: yellowgreen;
     margin-top: 0px;
     margin-bottom: 0px;
     
+    
 }
-.conteiner {
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: ;
     
 }
 /* logotype */
@@ -98,14 +106,22 @@ color: #000;
 
 }
 .site-nav.list {
+    display: flex;
+    margin-left: 93px;
     
     
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
 
 }
+.site-nav li {
+    margin: 50px;
+}
+
 .studio .link {
     color:  #2196F3;
  
@@ -116,12 +132,17 @@ color: #000;
 
 /* auth-nav */
 .auth-nav.list {
+    display: flex;
+    margin-left: auto;
     
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     
 
+}
+.auth-nav li {
+    margin: 50px;
 }
 .auth-nav .link {
     
@@ -149,6 +170,7 @@ color: #000;
 
 
 .hero-title {
+    padding: 200px 452px;
  
 
 font-weight: 900;
@@ -159,9 +181,11 @@ color: #FFFFFF;
 width: 1600px;
 height: 600px;
 left: 0px;
-top: 80px;
+top: 0px;
 
 background-color: rgb(47, 48, 58, 1);
+margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 .button {
@@ -407,6 +431,9 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 /* portfolio */
+.button-box {
+    display: flex;
+}
 /* button portfolio blue*/
 
 .button-portfolio {
@@ -467,8 +494,17 @@ color: rgba(255, 255, 255, 0.6);
     border-color: red;
     
 }
+.box-section-cards {
+    width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 30px;
+    background-color: aqua;
+}
 
 ul .section-title-portfolio {
+    
     
     font-weight: 700;
     font-size: 18px;
