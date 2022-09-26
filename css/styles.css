@@ -26,7 +26,14 @@
     font-style: normal;
     background-color:var(--primery-fon-color) ;
 font-weight: 400;
+
  
+}
+.main-conteiner {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 5px salmon;
 }
 
 /* основний фон шапки #FFFFFF */
@@ -41,16 +48,20 @@ font-weight: 400;
 
 .box-header {
 
-    background-color: yellowgreen;
+    background-color: ;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     
+
     
 }
 .main-nav {
     display: flex;
     align-items: center;
-    justify-content: ;
+    justify-content: flex-start;
+    
     
 }
 /* logotype */
@@ -63,6 +74,7 @@ font-size: 26px;
 font-weight: bold;
 color: rgba(33, 150, 243, 1);
 text-decoration: none;
+padding-left: 0px;
 }
 .accent:hover {
     color: rgba(33, 150, 243, 1);
@@ -72,7 +84,9 @@ font-family: "Raleway";
 font-size: 26px;
 font-weight: bold;
 
-color: rgb(0, 0, 1)
+color: rgb(0, 0, 1);
+margin-right: 93px;
+
 }
 .header .link:hover,
 .header .link:focus
@@ -105,10 +119,10 @@ color: #000;
     color: var(--body-text-color);
 
 }
+
 .site-nav.list {
     display: flex;
-    margin-left: 93px;
-    
+    margin-right: 93px;
     
     font-weight: 500;
     line-height: 1.14;
@@ -118,8 +132,11 @@ color: #000;
     
 
 }
-.site-nav li {
-    margin: 50px;
+
+
+.site-nav .item {
+    margin-left: 50px;
+    background-color: chartreuse;
 }
 
 .studio .link {
@@ -133,18 +150,25 @@ color: #000;
 /* auth-nav */
 .auth-nav.list {
     display: flex;
-    margin-left: auto;
+    margin-left: 344px;
     
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     
+    
 
 }
-.auth-nav li {
-    margin: 50px;
+.auth-nav .mail {
+    margin-right: 0px;
+    margin-left: 0px;
 }
-.auth-nav .link {
+.auth-nav .tel {
+    margin-right: 0px;
+    margin-left: 50px;
+
+}
+.link-mail {
     
     color: #2196F3;
 }
@@ -153,39 +177,44 @@ color: #000;
     color: rgba(117, 117, 117, 1);
 
 }
+.auth-nav .item + .item {
+    margin-left: 50px;
+}
 
 /* hero */
 .box-hero {
     margin-top: 0px;
     margin-bottom: 0px;
-    outline: 5px solid chartreuse;
+    outline: 5px solid ;
     
     
 }
 .hero {
     margin-top: 0px;
     margin-bottom: 0px;
+    text-align: center;
     
 }
 
 
 .hero-title {
-    padding: 200px 452px;
- 
+    padding: 200px 0px;
+    margin-bottom: 30px;
 
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 color: #FFFFFF;
 /* hero backgraund */
-width: 1600px;
+width: 1230px;
 height: 600px;
 left: 0px;
-top: 0px;
+top: 80px;
 
-background-color: rgb(47, 48, 58, 1);
+background-color:rgba(33, 33, 33, 1);
 margin-block-start: 0em;
     margin-block-end: 0em;
+    margin-bottom: 30px;
 }
 
 .button {
@@ -221,6 +250,9 @@ margin-block-start: 0em;
    
 }
 /* Особливості */
+.box-works {
+    display: flex;
+}
 li,
 h3,
 p {
@@ -229,19 +261,20 @@ p {
     
 }
 .box-peculiarities {
-    margin-top: 0px;
+    margin-top: 94px;
     margin-bottom: 0px;
     outline: 5px solid yellowgreen;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 0px;
+    padding-right: 0px;
 
 }
  .section.section {
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
     
     
-    
+
     
   
  } 
@@ -254,13 +287,15 @@ font-size: 14px;
 
 }
 .section-title-picture {
-    width: 1170px;
-    padding-left: 215px;
-    padding-right: 215px;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
-    justify-content: center;
     gap: 30px;
+    justify-content: space-around;
 }
+
+
 .section-task {
     font-style: normal;  
 
@@ -271,12 +306,15 @@ color: #757575;
     margin-top: 0px;
     margin-bottom: 0px;
     outline: 5px solid salmon;
+    display: flex;
+    
 }
+
+
 .section-made work {
-    padding-left: 617px;
-    padding-right: 617px;
-}
-.section-made {
+    display: inline;
+    
+
     padding-left: 617px;
     padding-right: 617px;
 
@@ -286,7 +324,7 @@ font-size: 36px;
 line-height: 1.17;
 margin-top: 0px;
 margin-bottom: 0px;
-background-color: ;
+text-align: center;
 
 }
 
@@ -308,8 +346,8 @@ outline: 3px solid:#2196F3;
     justify-content: center;
     gap: 30px;
     width: 1170px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .name {
@@ -337,12 +375,16 @@ color: rgba(117, 117, 117, 1);
 /* footer */
 .box-footer {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     outline: 5px solid salmon;
+    display: flex;
+    text-align: center;
+    
+    
 }
 .footer {
 /* footer backgraund */
-width: 1600px;
+width: 1230px;
 height: 252px;
 left: 0px;
 top: 2094px;
@@ -364,7 +406,8 @@ background: rgba(47, 48, 58, 1);
     letter-spacing: 0.03em;
     text-align: left;
     text-decoration: none;
-    color:rgba(33, 150, 243, 1)
+    color:rgba(33, 150, 243, 1);
+    
 }
 
 .accent-footer {
@@ -384,6 +427,12 @@ background: rgba(47, 48, 58, 1);
 
 
 .map {
+    height: 21px;
+width: 231px;
+left: 215px;
+top: 2205px;
+border-radius: nullpx;
+
     
 font-style: normal;
 font-weight: 400;
@@ -495,15 +544,27 @@ color: rgba(255, 255, 255, 0.6);
     
 }
 .box-section-cards {
-    width: 1600px;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    
     display: flex;
     flex-wrap: wrap;
-    
-    gap: 30px;
+    gap: 10px;
     background-color: aqua;
+}
+.text-container {
+    
 }
 
 ul .section-title-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     
     
     font-weight: 700;
@@ -515,6 +576,7 @@ ul .section-title-portfolio {
     
     color: #212121;
 }
+
 
 ul .section-task-portfolio {
     
