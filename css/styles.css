@@ -1,4 +1,4 @@
-.html {
+html {
     box-sizing: border-box;
 }
 *,
@@ -20,17 +20,19 @@
 /* body text color #000000*/
 /* вторичный цвет текста background: rgba(33, 33, 33, 1);
 */
-.body {
+body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-style: normal;
     background-color:var(--primery-fon-color) ;
-font-weight: 400;
+    font-weight: 400;
 
  
 }
 .main-conteiner {
-    width: 1230px;
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     outline: 5px salmon;
@@ -46,21 +48,11 @@ font-weight: 400;
 /* conteiner header */
 
 
-.box-header {
 
-    background-color: ;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    
-
-    
-}
 .main-nav {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    
     
     
 }
@@ -106,13 +98,12 @@ ul {list-style: none;
 }
 
 /* site-nav */
- .link {
+.link {
 text-decoration: none;
 color: #000;
 }
 .site-nav .link.carrent.studio {
     color: var(--body-text-color);
-
 
 }
 .site-nav .link.studio {
@@ -122,7 +113,7 @@ color: #000;
 
 .site-nav.list {
     display: flex;
-    margin-right: 93px;
+    margin-right: 0px;
     
     font-weight: 500;
     line-height: 1.14;
@@ -185,7 +176,8 @@ color: #000;
 .box-hero {
     margin-top: 0px;
     margin-bottom: 0px;
-    outline: 5px solid ;
+    outline: 5px solid tomato;
+    background-color: rgba(33, 33, 33, 1);
     
     
 }
@@ -211,10 +203,10 @@ height: 600px;
 left: 0px;
 top: 80px;
 
-background-color:rgba(33, 33, 33, 1);
+
 margin-block-start: 0em;
     margin-block-end: 0em;
-    margin-bottom: 30px;
+    
 }
 
 .button {
@@ -252,16 +244,18 @@ margin-block-start: 0em;
 /* Особливості */
 .box-works {
     display: flex;
-}
-li,
-h3,
-p {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    justify-content: center;
+    gap: 30px;
+    width: 1170px;
+    padding-left: 0px;
+    padding-right: 0px;
     
 }
+
+    
+
 .box-peculiarities {
-    margin-top: 94px;
+    margin-top: 0px;
     margin-bottom: 0px;
     outline: 5px solid yellowgreen;
     padding-left: 0px;
@@ -280,7 +274,7 @@ p {
  } 
 .section-title {
    
-font-weight: 700;
+font-weight: bold;
 line-height: 1.17;
 font-size: 14px;
 
@@ -288,11 +282,9 @@ font-size: 14px;
 }
 .section-title-picture {
     width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    gap: 30px;
-    justify-content: space-around;
+    padding-left: 0px;
+    padding-right: 0px;
+    
 }
 
 
@@ -302,21 +294,12 @@ font-size: 14px;
 color: #757575;
 }
 /* Чим ми займаемося та наша команда--> */
-.box-works {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    outline: 5px solid salmon;
-    display: flex;
+
+ .section-made {
     
-}
-
-
-.section-made work {
-    display: inline;
     
 
-    padding-left: 617px;
-    padding-right: 617px;
+    
 
 
 font-weight: 700;
@@ -330,16 +313,15 @@ text-align: center;
 
 
 /* our team */
-.box-team {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    outline: 5px solid salmon;
+.main-conteiner {
+    
+    outline: 5px solid rgb(114, 250, 184);
 }
 .section-team {
     background-color: rgba(245, 244, 250, 1);
     margin-top: 0px;
 margin-bottom: 0px;
-outline: 3px solid:#2196F3;
+
 }
 .personality-list {
     display: flex;
@@ -361,9 +343,8 @@ line-height: 1.17;
 
 }
 .position {
-        font-style: normal;
-    
-    font-size: 16px;
+    font-style: normal;
+        font-size: 16px;
     line-height: 1.19;
     /* identical to box height */
     
@@ -373,27 +354,29 @@ color: rgba(117, 117, 117, 1);
 
 }
 /* footer */
-.box-footer {
+.main-conteiner {
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     outline: 5px solid salmon;
-    display: flex;
-    text-align: center;
-    
+    padding-left: 0px;
+    padding-right: 0px;
     
 }
 .footer {
 /* footer backgraund */
 width: 1230px;
 height: 252px;
-left: 0px;
+left: 125px;
 top: 2094px;
 background: rgba(47, 48, 58, 1);
+
+margin-right: 125px;
 /* footer text */
 
 
-   
+  
 }
+/*text footer*/
 .logo-footer .accent-footer:focus,
 .logo-footer .accent-footer:hover {
     color: rgba(33, 150, 243, 1);}
@@ -408,6 +391,7 @@ background: rgba(47, 48, 58, 1);
     text-decoration: none;
     color:rgba(33, 150, 243, 1);
     
+    
 }
 
 .accent-footer {
@@ -420,6 +404,7 @@ background: rgba(47, 48, 58, 1);
     color: rgba(255, 255, 255, 1);
 
 }
+
 .map:focus,
 .map:hover {
     color: rgba(33, 150, 243, 1);
@@ -543,44 +528,57 @@ color: rgba(255, 255, 255, 0.6);
     border-color: red;
     
 }
-.box-section-cards {
+/* block cards*/
+.box__section__cards {
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 
-    
-    
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    background-color: aqua;
-}
-.text-container {
+     background-color: red;
     
 }
 
-ul .section-title-portfolio {
+.box__section__cards:not(:last-child) {
+    margin-left: 50px;
+    
+}
+
+
+ul.section__title {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    
-    
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2.0;
-    /* identical to box height, or 200% */
-    
-    
+
+  
+       
+      
     
     color: #212121;
 }
+.section__title__card {
+    flex-basis: calc(100%-60px)/3;
+}
 
+.section__title__card:not(:last-child) {
+    margin-left: 15px;
+}
 
-ul .section-task-portfolio {
+.section__title__portfolio {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+
+.section__task__portfolio {
     
-    font-weight: 400;
+    font-weight: normal;
     font-size: 16px;
     line-height: 1.88;
     /* identical to box height, or 188% */
@@ -588,6 +586,8 @@ ul .section-task-portfolio {
     
     
     color: #757575;
+
+    
 
 }
 
