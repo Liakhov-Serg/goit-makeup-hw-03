@@ -1,3 +1,27 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -35,26 +59,20 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 5px salmon;
+    
 }
 
 /* основний фон шапки #FFFFFF */
 .header {
     background-color: #FFFFFF;
-    
-    
-
+ 
 }
 /* conteiner header */
-
-
 
 .main-nav {
     display: flex;
     align-items: center;
-    
-    
-    
+     
 }
 /* logotype */
 .logo:hover {
@@ -127,7 +145,7 @@ color: #000;
 
 .site-nav .item {
     margin-left: 50px;
-    background-color: chartreuse;
+    
 }
 
 .studio .link {
@@ -176,14 +194,22 @@ color: #000;
 .box-hero {
     margin-top: 0px;
     margin-bottom: 0px;
-    outline: 5px solid tomato;
+    
     background-color: rgba(33, 33, 33, 1);
+   
+}
+.hero-wrapper {
+    
+    
+    text-align: center;
+    
+    max-width: 696px;
+    margin: auto;
     
     
 }
 .hero {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    
     text-align: center;
     
 }
@@ -191,44 +217,37 @@ color: #000;
 
 .hero-title {
     padding: 200px 0px;
-    margin-bottom: 30px;
+    
 
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 color: #FFFFFF;
+
 /* hero backgraund */
-width: 1230px;
-height: 600px;
-left: 0px;
-top: 80px;
 
 
-margin-block-start: 0em;
-    margin-block-end: 0em;
     
 }
 
 .button {
     /* size button */
     
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
+    
+    
     border-radius: 4px;
     /* color button */
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
-
-    
     /* position text button */
    
+    width: 216px;
+    height: 50px;
+
+    margin-bottom: px;
     
-    left: 724px;
-    top: 440px;
     /* text button */
     color: rgba(255, 255, 255, 1);
     font-family: "Roboto";
@@ -239,7 +258,7 @@ margin-block-start: 0em;
     align-content: center;
     /* identical to box height, or 188% */
     
-   
+    
 }
 /* Особливості */
 .box-works {
@@ -251,27 +270,7 @@ margin-block-start: 0em;
     padding-right: 0px;
     
 }
-
-    
-
-.box-peculiarities {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    outline: 5px solid yellowgreen;
-    padding-left: 0px;
-    padding-right: 0px;
-
-}
- .section.section {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    
-    
-
-    
-  
- } 
+ 
 .section-title {
    
 font-weight: bold;
@@ -287,7 +286,6 @@ font-size: 14px;
     
 }
 
-
 .section-task {
     font-style: normal;  
 
@@ -296,13 +294,8 @@ color: #757575;
 /* Чим ми займаемося та наша команда--> */
 
  .section-made {
-    
-    
-
-    
-
-
-font-weight: 700;
+     
+font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
 margin-top: 0px;
@@ -313,15 +306,10 @@ text-align: center;
 
 
 /* our team */
-.main-conteiner {
-    
-    outline: 5px solid rgb(114, 250, 184);
-}
+
 .section-team {
     background-color: rgba(245, 244, 250, 1);
-    margin-top: 0px;
-margin-bottom: 0px;
-
+    
 }
 .personality-list {
     display: flex;
@@ -334,13 +322,9 @@ margin-bottom: 0px;
 
 .name {
 
-
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
-
-
 }
 .position {
     font-style: normal;
@@ -350,7 +334,6 @@ line-height: 1.17;
     
     
 color: rgba(117, 117, 117, 1);
-
 
 }
 /* footer */
@@ -461,6 +444,8 @@ color: rgba(255, 255, 255, 0.6);
 
 
 /* portfolio */
+
+
 .button-box {
     display: flex;
 }
@@ -527,23 +512,16 @@ color: rgba(255, 255, 255, 0.6);
 
 
 /* block cards*/
-.box__section__cards {
-    width: 1230px;
-    background-color: red;
-    
-}
 
 ul.section__title {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
     color: #212121;
 }
 .section__title__card {
     flex-basis: calc(100%-60px)/3;
 }
-
 .section__title__portfolio {
     font-weight: bold;
     font-size: 18px;
