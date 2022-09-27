@@ -354,26 +354,20 @@ color: rgba(117, 117, 117, 1);
 
 }
 /* footer */
-.main-conteiner {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    outline: 5px solid salmon;
-    padding-left: 0px;
-    padding-right: 0px;
+
     
-}
+
 .footer {
 /* footer backgraund */
-width: 1230px;
+
 height: 252px;
-left: 125px;
-top: 2094px;
+
 background: rgba(47, 48, 58, 1);
 
-margin-right: 125px;
-/* footer text */
 
+/* footer position */
 
+padding-top: 60px;
   
 }
 /*text footer*/
@@ -464,6 +458,8 @@ color: rgba(255, 255, 255, 0.6);
     color: rgba(33, 150, 243, 1);
 }
 
+
+
 /* portfolio */
 .button-box {
     display: flex;
@@ -528,41 +524,24 @@ color: rgba(255, 255, 255, 0.6);
     border-color: red;
     
 }
+
+
 /* block cards*/
 .box__section__cards {
     width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
-     background-color: red;
+    background-color: red;
     
 }
-
-.box__section__cards:not(:last-child) {
-    margin-left: 50px;
-    
-}
-
 
 ul.section__title {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 
-  
-       
-      
-    
     color: #212121;
 }
 .section__title__card {
     flex-basis: calc(100%-60px)/3;
-}
-
-.section__title__card:not(:last-child) {
-    margin-left: 15px;
 }
 
 .section__title__portfolio {
