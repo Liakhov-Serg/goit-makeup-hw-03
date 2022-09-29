@@ -125,16 +125,11 @@ margin-right: 93px;
 text-decoration: none;
 color: #000;
 }
-.item.studio {
-    color: red;
-}
-.a.link.carrent {
-    text-decoration-color: brown;
-}
-.site-nav .link.carrent.studio {
-    color: var(--body-text-color);
 
+.a.link.carrent.studio {
+    color: coral;
 }
+
 .site-nav .link.studio {
     color: var(--body-text-color);
     
@@ -212,6 +207,9 @@ color: #000;
     border-bottom-style: double;
     border: 1px solid rgba(238, 238, 238, 1);
 }
+
+
+
 /* hero */
 .section {
     padding-top: 94px;
